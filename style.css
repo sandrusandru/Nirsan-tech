@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.bg-img-1{
+    background-image: url("img33.jpg");
+}
+
+.bg-img-2{
+    background-image: url("img22.jpg");
+}
+.bg-img-3{
+    background-image: url("img11.jpg");
+}
+.bg-img-4{
+    background-image: url("img44.jpg");
+}
+.bg-img-5{
+    background-image: url("img55.jpg");
+}
+.carousel-img{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.wellcome{
+    border-bottom: 6px solid blue;
+    width: fit-content;
+    margin: 0 auto;
+}
+.cat{
+    margin-left: 90px;
+}
+@media only screen and (max-width:768px) {
+    .cat{
+        margin-left:1px;
+    }
+}
+.background-card-effect{
+    background: rgba(255,255,255, 0.9);
+    backdrop-filter:blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:7px;
+}
+.Review{
+    border-bottom: 3px  blue;
+    width: fit-content;
+   border-bottom-style:groove;
+}
+form{
+    background-size: cover;
+    border-radius: 15px;
+    background-color:#151517;
+    padding: 15px;
+}
+iframe{
+    border-radius: 10px;
+}
+ul li{
+    list-style-type: none;
+}
+.navs{
+    background-color: transparent;
+    backdrop-filter: blur(50px);    
+}
